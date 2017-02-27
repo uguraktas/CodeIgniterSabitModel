@@ -28,3 +28,4 @@ CLASS KULLANIMI
  
  Sizde bu örneklere bakarak diğer filtrelemeleri yapabilirsiniz. Takıldığınız biryer olursa bana uguraktas25@yandex.com üzerinden ulaşabilirsiniz. Ayrıca bu dökümantasyonu yaparken Halit Yurttaş'a teşekkür ederim bilgi çekme işlemlerinde onun kodlarıda bulunmaktadır.
  
+http://www.uguraktas.info
