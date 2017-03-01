@@ -10,7 +10,7 @@ Class Admin_model extends CI_Model
 
 
     /*SayfaGetir fonksiyonu
-    $tablo ile gönderilen tablo adýndaki içinde ne varsa bilgileri çeker */
+    $tablo ile gÃ¶nderilen tablo adÃ½ndaki iÃ§inde ne varsa bilgileri Ã§eker */
     public function SayfaGetir($tablo, $where = NULL, $like = NULL, $order = NULL, $limit = NULL, $as_array = FALSE)
     {
         $this->db->select("*");
@@ -22,7 +22,7 @@ Class Admin_model extends CI_Model
             $this->db->like($like);
         }
         if ($order !== NULL) {
-            $this->order_by($order);
+            $this->db->order_by($order);
         }
         if ($limit !== NULL) {
             $this->db->limit($limit[0], $limit[1]);
@@ -44,7 +44,7 @@ Class Admin_model extends CI_Model
     }
 
     /*bilgiyiGuncelle fonksiyonu
-    Bilgi update etmede kullanýlýr */
+    Bilgi update etmede kullanÃ½lÃ½r */
     public function BilgiyiGuncelle($islem, $data, $id)
     {
         $kolon = "id";
