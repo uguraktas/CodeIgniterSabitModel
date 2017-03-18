@@ -25,6 +25,8 @@ CLASS KULLANIMI
         $data ["blog"] = $sonuc;
         $this->load->view('blog', $data);
     }
+    
+Orderby Kullanımı istek gönderirken $order = NULL Yerine order = ('kolon_ismi desc') yazarsak sıralamayı değiştirebilirsiniz. desc veya asc değerleri alabilir. 
  
  Sizde bu örneklere bakarak diğer filtrelemeleri yapabilirsiniz. Takıldığınız biryer olursa bana uguraktas25@yandex.com üzerinden ulaşabilirsiniz. Ayrıca bu dökümantasyonu yaparken Halit Yurttaş'a teşekkür ederim bilgi çekme işlemlerinde onun kodlarıda bulunmaktadır.
  
